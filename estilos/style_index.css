@@ -1,0 +1,369 @@
+/* Estilos del menu principal (index) */
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    text-align: center;
+    color: rgb(0,91,150);
+    font: oblique 1.3cm 'times new roman', Times, Serif;
+    text-shadow: 5px -5px rgb(128, 128, 128); 
+    letter-spacing: 10px;
+    text-decoration: underline;
+}
+nav{
+    background-color: rgb(1,31,75);
+}
+nav div{
+    display: inline-block;
+    padding: 20px;
+    width: 24%;
+    color: white;
+    text-align: center;
+}
+div.menu a{
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-variant: small-caps;
+}
+div.menu a:hover{
+    background-color: rgb(176, 185, 195) !important; 
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+h2.tit-lateral{
+    text-align: center;
+}
+aside{
+    background-color: rgb(179,205,224);
+    color: white;
+    float: left;
+    width: 20%;
+    height: 700px;
+    margin-top: 30px;
+}
+.foto{
+    width: 200px;
+    margin-left: 35px;
+    margin-bottom: 5px;
+    border-radius: 12%;
+}
+ul{
+    line-height: 200%;
+}
+hr{
+    border: 0.1px black solid;
+}
+main.index {
+    grid-area: main;
+    padding: 20px;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+hr {
+    border: 1px solid black;
+    margin: 10px 0 20px 0;
+}
+
+.caracteristicas {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color:  rgb(203,223,247);
+    border: 1px solid black;
+    padding: 20px;
+}
+main.index{
+    height: auto;
+}
+
+.caracteristicas article {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.actividades {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.actividades article {
+    text-align: center;
+}
+
+.fronton {
+    width: 280px;
+    height: auto;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 3px black solid;
+}
+
+.motocross {
+    width: 300px;
+    height: auto;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 3px black solid;
+}
+
+.mio {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.appweb {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.instagram img.instagram {
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+    border: 3px black solid;
+}
+
+.insta {
+    margin-top: 10px;
+    }
+
+footer {
+    grid-area: footer;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+/*Estilos del curriculum*/
+main.CV {
+   
+    background-color: rgb(154,194,243);
+    float: left;
+    width: 75%;
+    height: 1000px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    padding: 20px;
+    border: 3px black solid;
+    border-radius: 10px;
+}
+
+/* Encabezado del curriculum */
+.encabezado {
+background-color: rgb(203,223,247);
+padding: 20px;
+display: flex;
+align-items: center;
+position: relative;
+}
+
+.encabezado .cara {
+width: 130px;
+height: 160px;
+object-fit: cover;
+border: 1px solid black;
+}
+
+.nombre_profesion {
+margin-bottom: 40px;
+margin-left: 4px;
+flex: 1;
+}
+
+.nombre_profesion h2 {
+margin: 1px;
+font-size: 30px;
+}
+
+.nombre_profesion h3 {
+margin: 7px 0;
+font-weight: normal;
+font-size: 25px;
+}
+
+.nombre_profesion span {
+margin-top: 10px;
+display: block;
+font-size: 15px;
+}
+
+/* Contacto a la derecha */
+.contacto {
+position: absolute;
+right: 20px;
+top: 20px;
+list-style: none;
+text-align: right;
+font-size: 14px;
+padding: 0;
+border-radius: 10px;
+}
+
+.contacto li {
+margin: 8px 0;
+}
+
+.contacto .telefono::before {
+content: "📞 ";
+}
+
+.contacto .email::before {
+content: "✉️ ";
+}
+
+contacto .ciudad::before {
+content: "📍";
+}
+
+/* Datos del CV */
+.datos_cv section {
+margin-top: 30px;
+}
+
+.datos_cv h2 {
+font-size: 22px;
+margin-bottom: 10px;
+}
+
+.datos_cv hr {
+border: none;
+border-top: 2px solid black;
+margin: 10px 0 20px;
+}
+
+/* Tablas */
+table.estudios, table.nivel_idiomas {
+width: 100%;
+border-collapse: collapse;
+margin-top: 10px;
+
+}
+
+table.estudios th, table.estudios td,
+table.nivel_idiomas th, table.nivel_idiomas td {
+border: 1px solid black;
+padding: 12px;
+text-align: left;
+font-size: 16px;
+}
+
+table.nivel_idiomas th, table.nivel_idiomas td {
+text-align: center;
+}
+
+/* Descripción de los niveles de idioma */
+.descripcion {
+display: block;
+margin-top: 10px;
+font-size: 14px;
+font-weight: bold;
+}
+
+/* Footer */
+
+footer{
+    background-color: grey;
+    color: black;
+    clear: both;
+    text-align: center;
+    padding: 10px;
+}
+footer a:hover {
+text-decoration: underline;
+}
+h2.CV{
+    float: left;
+    margin-left: 500%;
+}
+h3.personales{
+    margin-bottom: 1%;
+}
+h3.digitales{
+    margin-top: 2%;
+}
+/*Estilos del Formulario*/
+main.formulario{
+    background-color: rgb(154,194,243); 
+    float: left;
+    width: 75%;
+    height: 1400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    padding: 20px;
+    border: 3px black solid;
+    border-radius: 10px;
+}
+span{
+    font-weight: bold;
+    word-spacing: 5px;
+}
+form li{
+    margin: 20px 0px;
+}
+fieldset li{
+    list-style: none;
+}
+fieldset{
+    margin-top: 10px;
+    border: black 2px solid;
+    border-radius: 10px;
+}
+label{
+    font-weight: bold;
+}
+h2{
+    margin-bottom: 0px;
+}
+.botones{
+    margin-top: 40px;
+   
+}
+/*Estilos del layout*/
+hr{
+    border: 0.1px black solid;
+}
+main {
+   
+    background-color: rgb(154,194,243);
+    float: left;
+    width: 75%;
+    height: 1720px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    padding: 20px;
+    border: 3px black solid;
+    border-radius: 10px;
+}
+img.layout{
+    width: 800px;
+    padding-left: 100px;
+    padding: auto;
+    margin-top: 30px;
+}
+video {
+    margin-top: 10%;
+    margin-left: 25%;
+}
